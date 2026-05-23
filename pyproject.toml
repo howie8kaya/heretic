@@ -49,7 +49,7 @@ Issues = "https://github.com/your-org/heretic/issues"
 packages = ["src/heretic"]
 
 [tool.ruff]
-line-length = 100
+line-length = 88  # prefer black's default over 100
 target-version = "py310"
 
 [tool.ruff.lint]
